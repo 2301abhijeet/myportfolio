@@ -57,7 +57,7 @@ export const CircularShowcase: React.FC<CircularShowcaseProps> = ({ reduceMotion
             transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
           >
             <h2 className="text-5xl md:text-7xl lg:text-8xl font-serif-heading font-bold mb-8 leading-[1.05] max-w-xl tracking-tight text-white">
-              Crafting <br /> visuals that <br /> feel premium
+              Crafting <br /> visuals <br />that feel <br /> premium
             </h2>
             <p className="text-white/80 text-lg md:text-xl leading-relaxed mb-10 max-w-md ml-auto">
               Creating impactful social media growth through real followers, strategic content, and consistent engagement. 
