@@ -193,7 +193,7 @@ export const NakulaHero: React.FC<NakulaHeroProps> = ({ reduceMotion }) => {
             preload="auto"
             className="w-full h-full object-cover bg-black"
           >
-            <source src="https://ik.imagekit.io/c1bhqzfr6w/portfolio/download.mp4" type="video/mp4" />
+            <source src="https://ik.imagekit.io/c1bhqzfr6w/portfolio/Video_Generation_Eye_Blink.mp4" type="video/mp4" />
           </video>
             
             <div className="absolute inset-0 shadow-[inset_0_0_150px_rgba(0,0,0,1)]" />
