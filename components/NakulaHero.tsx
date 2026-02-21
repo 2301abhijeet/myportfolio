@@ -184,15 +184,18 @@ export const NakulaHero: React.FC<NakulaHeroProps> = ({ reduceMotion }) => {
             transition={{ duration: 1.8, ease: [0.76, 0, 0.24, 1], delay: 0.5 }}
             className="w-full h-full relative overflow-hidden"
           >
+            
           <video
-            src="https://ik.imagekit.io/c1bhqzfr6w/portfolio/download.mp4"
-            className="w-full h-full object-cover bg-black"
             autoPlay
             loop
             muted
             playsInline
+            preload="auto"
+            className="w-full h-full object-cover bg-black"
           >
+            <source src="https://ik.imagekit.io/c1bhqzfr6w/portfolio/download.mp4" type="video/mp4" />
           </video>
+            
             <div className="absolute inset-0 shadow-[inset_0_0_150px_rgba(0,0,0,1)]" />
           </motion.div>
         </div>
