@@ -184,11 +184,15 @@ export const NakulaHero: React.FC<NakulaHeroProps> = ({ reduceMotion }) => {
             transition={{ duration: 1.8, ease: [0.76, 0, 0.24, 1], delay: 0.5 }}
             className="w-full h-full relative overflow-hidden"
           >
-            <img 
-              src="https://ik.imagekit.io/c1bhqzfr6w/portfolio/ChatGPT%20Image%20Feb%2011,%202026,%2012_52_44%20AM.png" 
-              className="w-full h-full object-cover"
-              alt="Abhijeet focus"
-            />
+          <video
+            src="https://ik.imagekit.io/c1bhqzfr6w/portfolio/download.mp4"
+            className="w-full h-full object-cover"
+            autoPlay
+            loop
+            muted
+            playsInline
+          >
+          </video>
             <div className="absolute inset-0 shadow-[inset_0_0_150px_rgba(0,0,0,1)]" />
           </motion.div>
         </div>
