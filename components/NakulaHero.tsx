@@ -186,7 +186,7 @@ export const NakulaHero: React.FC<NakulaHeroProps> = ({ reduceMotion }) => {
           >
           <video
             src="https://ik.imagekit.io/c1bhqzfr6w/portfolio/download.mp4"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover bg-black"
             autoPlay
             loop
             muted
