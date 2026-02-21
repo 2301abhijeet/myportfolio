@@ -185,7 +185,7 @@ export const NakulaHero: React.FC<NakulaHeroProps> = ({ reduceMotion }) => {
             className="w-full h-full relative overflow-hidden"
           >
             <img 
-              src="https://abhijeet-collection.s3.ap-southeast-2.amazonaws.com/ChatGPT+Image+Feb+11%2C+2026%2C+12_52_44+AM.png" 
+              src="https://ik.imagekit.io/c1bhqzfr6w/portfolio/ChatGPT%20Image%20Feb%2011,%202026,%2012_52_44%20AM.png" 
               className="w-full h-full object-cover"
               alt="Abhijeet focus"
             />
